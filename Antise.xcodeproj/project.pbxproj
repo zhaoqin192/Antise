@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57D3B18DEC7689FCDDDBDAD4 /* Pods_Antise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE7C01C6CB8CCD616615B15 /* Pods_Antise.framework */; };
+		AC44E91A1D12BA3900BFC578 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC44E9191D12BA3900BFC578 /* main.m */; };
+		AC44E91D1D12BA3900BFC578 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC44E91C1D12BA3900BFC578 /* AppDelegate.m */; };
+		AC44E9201D12BA3900BFC578 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC44E91F1D12BA3900BFC578 /* ViewController.m */; };
+		AC44E9231D12BA3900BFC578 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC44E9211D12BA3900BFC578 /* Main.storyboard */; };
+		AC44E9261D12BA3900BFC578 /* Antise.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC44E9241D12BA3900BFC578 /* Antise.xcdatamodeld */; };
+		AC44E9281D12BA3900BFC578 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC44E9271D12BA3900BFC578 /* Assets.xcassets */; };
+		AC44E92B1D12BA3900BFC578 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC44E9291D12BA3900BFC578 /* LaunchScreen.storyboard */; };
+		AC44E9481D12BB1500BFC578 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = AC44E9331D12BB1500BFC578 /* .gitignore */; };
+		AC44E9491D12BB1500BFC578 /* NSObject+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = AC44E9371D12BB1500BFC578 /* NSObject+MemoryLeak.m */; };
+		AC44E94A1D12BB1500BFC578 /* UINavigationController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = AC44E9391D12BB1500BFC578 /* UINavigationController+MemoryLeak.m */; };
+		AC44E94B1D12BB1500BFC578 /* UIPageViewController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = AC44E93B1D12BB1500BFC578 /* UIPageViewController+MemoryLeak.m */; };
+		AC44E94C1D12BB1500BFC578 /* UISplitViewController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = AC44E93D1D12BB1500BFC578 /* UISplitViewController+MemoryLeak.m */; };
+		AC44E94D1D12BB1500BFC578 /* UITabBarController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = AC44E93F1D12BB1500BFC578 /* UITabBarController+MemoryLeak.m */; };
+		AC44E94E1D12BB1500BFC578 /* UIView+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = AC44E9411D12BB1500BFC578 /* UIView+MemoryLeak.m */; };
+		AC44E94F1D12BB1500BFC578 /* UIViewController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = AC44E9431D12BB1500BFC578 /* UIViewController+MemoryLeak.m */; };
+		AC44E9501D12BB1500BFC578 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = AC44E9471D12BB1500BFC578 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC44E9521D12BB1500BFC578 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC44E9441D12BB1500BFC578 /* MLeaksFinder.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B3ADE16C1C1BD1D600AA4F63;
+			remoteInfo = MLeaksFinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		388F6926C731957802B011E6 /* Pods-Antise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Antise.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Antise/Pods-Antise.debug.xcconfig"; sourceTree = "<group>"; };
+		AC44E9151D12BA3900BFC578 /* Antise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Antise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC44E9191D12BA3900BFC578 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC44E91B1D12BA3900BFC578 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AC44E91C1D12BA3900BFC578 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AC44E91E1D12BA3900BFC578 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AC44E91F1D12BA3900BFC578 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AC44E9221D12BA3900BFC578 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC44E9251D12BA3900BFC578 /* Antise.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Antise.xcdatamodel; sourceTree = "<group>"; };
+		AC44E9271D12BA3900BFC578 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC44E92A1D12BA3900BFC578 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC44E92C1D12BA3900BFC578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC44E9331D12BB1500BFC578 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		AC44E9351D12BB1500BFC578 /* MLeaksFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLeaksFinder.h; sourceTree = "<group>"; };
+		AC44E9361D12BB1500BFC578 /* NSObject+MemoryLeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MemoryLeak.h"; sourceTree = "<group>"; };
+		AC44E9371D12BB1500BFC578 /* NSObject+MemoryLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MemoryLeak.m"; sourceTree = "<group>"; };
+		AC44E9381D12BB1500BFC578 /* UINavigationController+MemoryLeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+MemoryLeak.h"; sourceTree = "<group>"; };
+		AC44E9391D12BB1500BFC578 /* UINavigationController+MemoryLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+MemoryLeak.m"; sourceTree = "<group>"; };
+		AC44E93A1D12BB1500BFC578 /* UIPageViewController+MemoryLeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPageViewController+MemoryLeak.h"; sourceTree = "<group>"; };
+		AC44E93B1D12BB1500BFC578 /* UIPageViewController+MemoryLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPageViewController+MemoryLeak.m"; sourceTree = "<group>"; };
+		AC44E93C1D12BB1500BFC578 /* UISplitViewController+MemoryLeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISplitViewController+MemoryLeak.h"; sourceTree = "<group>"; };
+		AC44E93D1D12BB1500BFC578 /* UISplitViewController+MemoryLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISplitViewController+MemoryLeak.m"; sourceTree = "<group>"; };
+		AC44E93E1D12BB1500BFC578 /* UITabBarController+MemoryLeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+MemoryLeak.h"; sourceTree = "<group>"; };
+		AC44E93F1D12BB1500BFC578 /* UITabBarController+MemoryLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+MemoryLeak.m"; sourceTree = "<group>"; };
+		AC44E9401D12BB1500BFC578 /* UIView+MemoryLeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MemoryLeak.h"; sourceTree = "<group>"; };
+		AC44E9411D12BB1500BFC578 /* UIView+MemoryLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MemoryLeak.m"; sourceTree = "<group>"; };
+		AC44E9421D12BB1500BFC578 /* UIViewController+MemoryLeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MemoryLeak.h"; sourceTree = "<group>"; };
+		AC44E9431D12BB1500BFC578 /* UIViewController+MemoryLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MemoryLeak.m"; sourceTree = "<group>"; };
+		AC44E9441D12BB1500BFC578 /* MLeaksFinder.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = MLeaksFinder.xcodeproj; sourceTree = "<group>"; };
+		AC44E9471D12BB1500BFC578 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CAA247FB3ECF2F7B289E0E6F /* Pods-Antise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Antise.release.xcconfig"; path = "Pods/Target Support Files/Pods-Antise/Pods-Antise.release.xcconfig"; sourceTree = "<group>"; };
+		CAE7C01C6CB8CCD616615B15 /* Pods_Antise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Antise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC44E9121D12BA3900BFC578 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57D3B18DEC7689FCDDDBDAD4 /* Pods_Antise.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37B0ACC0AFD42AE3D4B8C571 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				388F6926C731957802B011E6 /* Pods-Antise.debug.xcconfig */,
+				CAA247FB3ECF2F7B289E0E6F /* Pods-Antise.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A5C000C38618B2E847B9A461 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAE7C01C6CB8CCD616615B15 /* Pods_Antise.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC44E90C1D12BA3900BFC578 = {
+			isa = PBXGroup;
+			children = (
+				AC44E9321D12BB1500BFC578 /* MLeaksFinder */,
+				AC44E9171D12BA3900BFC578 /* Antise */,
+				AC44E9161D12BA3900BFC578 /* Products */,
+				37B0ACC0AFD42AE3D4B8C571 /* Pods */,
+				A5C000C38618B2E847B9A461 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AC44E9161D12BA3900BFC578 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC44E9151D12BA3900BFC578 /* Antise.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC44E9171D12BA3900BFC578 /* Antise */ = {
+			isa = PBXGroup;
+			children = (
+				AC44E91B1D12BA3900BFC578 /* AppDelegate.h */,
+				AC44E91C1D12BA3900BFC578 /* AppDelegate.m */,
+				AC44E91E1D12BA3900BFC578 /* ViewController.h */,
+				AC44E91F1D12BA3900BFC578 /* ViewController.m */,
+				AC44E9211D12BA3900BFC578 /* Main.storyboard */,
+				AC44E9271D12BA3900BFC578 /* Assets.xcassets */,
+				AC44E9291D12BA3900BFC578 /* LaunchScreen.storyboard */,
+				AC44E92C1D12BA3900BFC578 /* Info.plist */,
+				AC44E9241D12BA3900BFC578 /* Antise.xcdatamodeld */,
+				AC44E9181D12BA3900BFC578 /* Supporting Files */,
+			);
+			path = Antise;
+			sourceTree = "<group>";
+		};
+		AC44E9181D12BA3900BFC578 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC44E9191D12BA3900BFC578 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC44E9321D12BB1500BFC578 /* MLeaksFinder */ = {
+			isa = PBXGroup;
+			children = (
+				AC44E9331D12BB1500BFC578 /* .gitignore */,
+				AC44E9341D12BB1500BFC578 /* MLeaksFinder */,
+				AC44E9441D12BB1500BFC578 /* MLeaksFinder.xcodeproj */,
+				AC44E9471D12BB1500BFC578 /* README.md */,
+			);
+			path = MLeaksFinder;
+			sourceTree = "<group>";
+		};
+		AC44E9341D12BB1500BFC578 /* MLeaksFinder */ = {
+			isa = PBXGroup;
+			children = (
+				AC44E9351D12BB1500BFC578 /* MLeaksFinder.h */,
+				AC44E9361D12BB1500BFC578 /* NSObject+MemoryLeak.h */,
+				AC44E9371D12BB1500BFC578 /* NSObject+MemoryLeak.m */,
+				AC44E9381D12BB1500BFC578 /* UINavigationController+MemoryLeak.h */,
+				AC44E9391D12BB1500BFC578 /* UINavigationController+MemoryLeak.m */,
+				AC44E93A1D12BB1500BFC578 /* UIPageViewController+MemoryLeak.h */,
+				AC44E93B1D12BB1500BFC578 /* UIPageViewController+MemoryLeak.m */,
+				AC44E93C1D12BB1500BFC578 /* UISplitViewController+MemoryLeak.h */,
+				AC44E93D1D12BB1500BFC578 /* UISplitViewController+MemoryLeak.m */,
+				AC44E93E1D12BB1500BFC578 /* UITabBarController+MemoryLeak.h */,
+				AC44E93F1D12BB1500BFC578 /* UITabBarController+MemoryLeak.m */,
+				AC44E9401D12BB1500BFC578 /* UIView+MemoryLeak.h */,
+				AC44E9411D12BB1500BFC578 /* UIView+MemoryLeak.m */,
+				AC44E9421D12BB1500BFC578 /* UIViewController+MemoryLeak.h */,
+				AC44E9431D12BB1500BFC578 /* UIViewController+MemoryLeak.m */,
+			);
+			path = MLeaksFinder;
+			sourceTree = "<group>";
+		};
+		AC44E9451D12BB1500BFC578 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC44E9531D12BB1500BFC578 /* libMLeaksFinder.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC44E9141D12BA3900BFC578 /* Antise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC44E92F1D12BA3900BFC578 /* Build configuration list for PBXNativeTarget "Antise" */;
+			buildPhases = (
+				FCC48BF776679AE246BCEE59 /* 📦 Check Pods Manifest.lock */,
+				AC44E9111D12BA3900BFC578 /* Sources */,
+				AC44E9121D12BA3900BFC578 /* Frameworks */,
+				AC44E9131D12BA3900BFC578 /* Resources */,
+				03CFD9AF9C55EC7E01E68CAC /* 📦 Embed Pods Frameworks */,
+				7454A480C8FC3F14DFB6DF87 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Antise;
+			productName = Antise;
+			productReference = AC44E9151D12BA3900BFC578 /* Antise.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC44E90D1D12BA3900BFC578 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Muggins;
+				TargetAttributes = {
+					AC44E9141D12BA3900BFC578 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = AC44E9101D12BA3900BFC578 /* Build configuration list for PBXProject "Antise" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC44E90C1D12BA3900BFC578;
+			productRefGroup = AC44E9161D12BA3900BFC578 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = AC44E9451D12BB1500BFC578 /* Products */;
+					ProjectRef = AC44E9441D12BB1500BFC578 /* MLeaksFinder.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				AC44E9141D12BA3900BFC578 /* Antise */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		AC44E9531D12BB1500BFC578 /* libMLeaksFinder.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMLeaksFinder.a;
+			remoteRef = AC44E9521D12BB1500BFC578 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC44E9131D12BA3900BFC578 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC44E9481D12BB1500BFC578 /* .gitignore in Resources */,
+				AC44E92B1D12BA3900BFC578 /* LaunchScreen.storyboard in Resources */,
+				AC44E9281D12BA3900BFC578 /* Assets.xcassets in Resources */,
+				AC44E9231D12BA3900BFC578 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03CFD9AF9C55EC7E01E68CAC /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Antise/Pods-Antise-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7454A480C8FC3F14DFB6DF87 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Antise/Pods-Antise-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCC48BF776679AE246BCEE59 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC44E9111D12BA3900BFC578 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC44E94E1D12BB1500BFC578 /* UIView+MemoryLeak.m in Sources */,
+				AC44E9201D12BA3900BFC578 /* ViewController.m in Sources */,
+				AC44E94D1D12BB1500BFC578 /* UITabBarController+MemoryLeak.m in Sources */,
+				AC44E94F1D12BB1500BFC578 /* UIViewController+MemoryLeak.m in Sources */,
+				AC44E91D1D12BA3900BFC578 /* AppDelegate.m in Sources */,
+				AC44E94B1D12BB1500BFC578 /* UIPageViewController+MemoryLeak.m in Sources */,
+				AC44E9501D12BB1500BFC578 /* README.md in Sources */,
+				AC44E94C1D12BB1500BFC578 /* UISplitViewController+MemoryLeak.m in Sources */,
+				AC44E91A1D12BA3900BFC578 /* main.m in Sources */,
+				AC44E9491D12BB1500BFC578 /* NSObject+MemoryLeak.m in Sources */,
+				AC44E9261D12BA3900BFC578 /* Antise.xcdatamodeld in Sources */,
+				AC44E94A1D12BB1500BFC578 /* UINavigationController+MemoryLeak.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC44E9211D12BA3900BFC578 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC44E9221D12BA3900BFC578 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC44E9291D12BA3900BFC578 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC44E92A1D12BA3900BFC578 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC44E92D1D12BA3900BFC578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AC44E92E1D12BA3900BFC578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC44E9301D12BA3900BFC578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 388F6926C731957802B011E6 /* Pods-Antise.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Antise/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.muggins.Antise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC44E9311D12BA3900BFC578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAA247FB3ECF2F7B289E0E6F /* Pods-Antise.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Antise/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.muggins.Antise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC44E9101D12BA3900BFC578 /* Build configuration list for PBXProject "Antise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC44E92D1D12BA3900BFC578 /* Debug */,
+				AC44E92E1D12BA3900BFC578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC44E92F1D12BA3900BFC578 /* Build configuration list for PBXNativeTarget "Antise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC44E9301D12BA3900BFC578 /* Debug */,
+				AC44E9311D12BA3900BFC578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AC44E9241D12BA3900BFC578 /* Antise.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AC44E9251D12BA3900BFC578 /* Antise.xcdatamodel */,
+			);
+			currentVersion = AC44E9251D12BA3900BFC578 /* Antise.xcdatamodel */;
+			path = Antise.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AC44E90D1D12BA3900BFC578 /* Project object */;
+}
