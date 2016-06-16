@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		57D3B18DEC7689FCDDDBDAD4 /* Pods_Antise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE7C01C6CB8CCD616615B15 /* Pods_Antise.framework */; };
+		934E9FE2F82FEBEBABEAB799 /* libPods-Antise.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3AB03F5EDCA91BD55886E0 /* libPods-Antise.a */; };
 		AC44E91A1D12BA3900BFC578 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC44E9191D12BA3900BFC578 /* main.m */; };
 		AC44E91D1D12BA3900BFC578 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC44E91C1D12BA3900BFC578 /* AppDelegate.m */; };
 		AC44E9201D12BA3900BFC578 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC44E91F1D12BA3900BFC578 /* ViewController.m */; };
@@ -23,7 +23,8 @@
 		AC44E94D1D12BB1500BFC578 /* UITabBarController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = AC44E93F1D12BB1500BFC578 /* UITabBarController+MemoryLeak.m */; };
 		AC44E94E1D12BB1500BFC578 /* UIView+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = AC44E9411D12BB1500BFC578 /* UIView+MemoryLeak.m */; };
 		AC44E94F1D12BB1500BFC578 /* UIViewController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = AC44E9431D12BB1500BFC578 /* UIViewController+MemoryLeak.m */; };
-		AC44E9501D12BB1500BFC578 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = AC44E9471D12BB1500BFC578 /* README.md */; };
+		AC44E9581D12BE2600BFC578 /* ATSBLEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC44E9571D12BE2600BFC578 /* ATSBLEViewController.m */; };
+		AC44E95B1D12C65E00BFC578 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC44E95A1D12C65E00BFC578 /* CoreBluetooth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,9 +67,11 @@
 		AC44E9421D12BB1500BFC578 /* UIViewController+MemoryLeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MemoryLeak.h"; sourceTree = "<group>"; };
 		AC44E9431D12BB1500BFC578 /* UIViewController+MemoryLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MemoryLeak.m"; sourceTree = "<group>"; };
 		AC44E9441D12BB1500BFC578 /* MLeaksFinder.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = MLeaksFinder.xcodeproj; sourceTree = "<group>"; };
-		AC44E9471D12BB1500BFC578 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AC44E9561D12BE2600BFC578 /* ATSBLEViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATSBLEViewController.h; sourceTree = "<group>"; };
+		AC44E9571D12BE2600BFC578 /* ATSBLEViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATSBLEViewController.m; sourceTree = "<group>"; };
+		AC44E95A1D12C65E00BFC578 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		CAA247FB3ECF2F7B289E0E6F /* Pods-Antise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Antise.release.xcconfig"; path = "Pods/Target Support Files/Pods-Antise/Pods-Antise.release.xcconfig"; sourceTree = "<group>"; };
-		CAE7C01C6CB8CCD616615B15 /* Pods_Antise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Antise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3AB03F5EDCA91BD55886E0 /* libPods-Antise.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Antise.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +79,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57D3B18DEC7689FCDDDBDAD4 /* Pods_Antise.framework in Frameworks */,
+				AC44E95B1D12C65E00BFC578 /* CoreBluetooth.framework in Frameworks */,
+				934E9FE2F82FEBEBABEAB799 /* libPods-Antise.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +99,8 @@
 		A5C000C38618B2E847B9A461 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CAE7C01C6CB8CCD616615B15 /* Pods_Antise.framework */,
+				AC44E95A1D12C65E00BFC578 /* CoreBluetooth.framework */,
+				CF3AB03F5EDCA91BD55886E0 /* libPods-Antise.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -122,6 +127,7 @@
 		AC44E9171D12BA3900BFC578 /* Antise */ = {
 			isa = PBXGroup;
 			children = (
+				AC44E9541D12BDF900BFC578 /* BLE */,
 				AC44E91B1D12BA3900BFC578 /* AppDelegate.h */,
 				AC44E91C1D12BA3900BFC578 /* AppDelegate.m */,
 				AC44E91E1D12BA3900BFC578 /* ViewController.h */,
@@ -150,7 +156,6 @@
 				AC44E9331D12BB1500BFC578 /* .gitignore */,
 				AC44E9341D12BB1500BFC578 /* MLeaksFinder */,
 				AC44E9441D12BB1500BFC578 /* MLeaksFinder.xcodeproj */,
-				AC44E9471D12BB1500BFC578 /* README.md */,
 			);
 			path = MLeaksFinder;
 			sourceTree = "<group>";
@@ -183,6 +188,15 @@
 				AC44E9531D12BB1500BFC578 /* libMLeaksFinder.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		AC44E9541D12BDF900BFC578 /* BLE */ = {
+			isa = PBXGroup;
+			children = (
+				AC44E9561D12BE2600BFC578 /* ATSBLEViewController.h */,
+				AC44E9571D12BE2600BFC578 /* ATSBLEViewController.m */,
+			);
+			path = BLE;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,10 +343,10 @@
 				AC44E94F1D12BB1500BFC578 /* UIViewController+MemoryLeak.m in Sources */,
 				AC44E91D1D12BA3900BFC578 /* AppDelegate.m in Sources */,
 				AC44E94B1D12BB1500BFC578 /* UIPageViewController+MemoryLeak.m in Sources */,
-				AC44E9501D12BB1500BFC578 /* README.md in Sources */,
 				AC44E94C1D12BB1500BFC578 /* UISplitViewController+MemoryLeak.m in Sources */,
 				AC44E91A1D12BA3900BFC578 /* main.m in Sources */,
 				AC44E9491D12BB1500BFC578 /* NSObject+MemoryLeak.m in Sources */,
+				AC44E9581D12BE2600BFC578 /* ATSBLEViewController.m in Sources */,
 				AC44E9261D12BA3900BFC578 /* Antise.xcdatamodeld in Sources */,
 				AC44E94A1D12BB1500BFC578 /* UINavigationController+MemoryLeak.m in Sources */,
 			);
